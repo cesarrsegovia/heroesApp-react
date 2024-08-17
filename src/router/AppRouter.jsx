@@ -10,6 +10,7 @@ export const AppRouter = () => {
         <>
             <Routes>
                 <Route path="/login" element={
+                    // ruta publica de login
                     <PublicRoute>
                         <LoginPage/>
                     </PublicRoute>
